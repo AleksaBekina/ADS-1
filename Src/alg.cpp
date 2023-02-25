@@ -1,9 +1,9 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
 #include "alg.h"
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
+// using namespace std;
 
 // int main() {
 // 	cout << "checkPrime\t" << checkPrime(4) << endl;
