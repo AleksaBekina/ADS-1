@@ -6,8 +6,8 @@ bool checkPrime(uint64_t value) {
     uint64_t del = 2;
     while (del * del <= value) {
         if (value % del == 0) return false;
-            del++;
-    } 
+        del++;
+    }
     return true;
 }
 
