@@ -1,17 +1,6 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
 #include "alg.h"
-// #include <iostream>
-
-// using namespace std;
-
-// int main() {
-// 	cout << "checkPrime\t" << checkPrime(4) << endl;
-// 	cout << "nPrime\t\t" << nPrime(3) << endl;
-// 	cout << "nextPrime\t" << nextPrime(18) << endl;
-// 	cout << "sumPrime\t" << sumPrime(17) << endl;
-// 	return 0;
-// }
 
 bool checkPrime(uint64_t value) {
 	uint64_t del = 2;
@@ -32,7 +21,7 @@ uint64_t nPrime(uint64_t n) {
 }
 
 uint64_t nextPrime(uint64_t value) {
-	while (!checkPrime(++value));
+	while (!checkPrime(++value)) {};
 	return value;
 }
 
@@ -46,5 +35,4 @@ uint64_t sumPrime(uint64_t hbound) {
 		number++;
 	}
 	return sum;
-
 }
